@@ -1,0 +1,220 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+
+.footer p {
+  margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+#container-1
+{
+  height: 46rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("bank-background.jpg");
+  background-blend-mode:darken;
+  text-align: center;
+}
+
+.coin-img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+h1{
+    font-family: "Montserrat";
+  font-size: 6rem;
+}
+
+h3{
+  font-family: "Ubuntu-Light";
+  font-size: 4rem;
+}
+ #container-1 .heading
+{
+  color: #0a043c;
+  padding-top: 4%;
+}
+
+#view_details{
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 10%;
+  margin-left: 450px;
+  margin-right: 450px;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+
+.avatar-img{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+
+#transferForm{
+  text-align: center;
+}
+
+.rcpt{
+  width:200px;
+  margin-left: 545px;
+}
+
+#transactionHeading{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.conHead{margin-top: 20px;}
+
+#contactHeading{
+  text-align: center;
+  font-family: "Montserrat";
+  margin-bottom:10px;
+}
+
+#contactSubheading{
+  text-align: center;
+  font-family: "Montserrat-Light"
+}
+
+.social-icons
+{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.social-icons a
+{
+  height: 100px;
+  width: 100px;
+  background-color: #f5f6fa;
+  border-radius: 50%;
+  padding-top: 30px;;
+  margin: 50px;
+  text-align: center;
+  box-shadow: 1px 4px 2px 2px #dcdde1;
+  font-size: 2rem;
+  transition: 0.7s;
+}
+
+.social-icons a i
+{
+  transition: 0.4s linear;
+}
+
+.icon-links:hover
+{
+  transform: translateY(-10px);
+  background:#f1d4d4;
+}
+
+.icon-links:hover i
+{
+transform: scale(1.2);
+}
+
+#aboutHeading{
+  font-family: "Ubuntu";
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+.aboutInfo{
+  font-family: "Ubuntu-Light";
+  margin-top: 30px;
+  margin-left:400px;
+  line-height: 1.6;
+  width: 600px;
+  font-size:2.5rem;
+}
+
+#customer-heading{
+  font-family: "Montserrat";
+  text-align:center;
+}
+
+.row{
+  padding-left: 250px;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+.payment
+	{
+		border:3px solid #f2f2f2;
+		height:280px;
+        border-radius:20px;
+        background:#fff;
+	}
+   .payment_header
+   {
+	   background:#54e346;
+	   padding:20px;
+     border-radius:20px 20px 0px 0px;
+
+   }
+
+   .check
+   {
+	   margin:0px auto;
+	   width:50px;
+	   height:50px;
+	   border-radius:100%;
+	   background:#fff;
+	   text-align:center;
+   }
+
+   .check i
+   {
+	   vertical-align:middle;
+	   line-height:50px;
+	   font-size:30px;
+   }
+
+    .content
+    {
+        text-align:center;
+    }
+
+    .content  h1
+    {
+        font-size:25px;
+        padding-top:25px;
+    }
+
+    #transactionHistory_heading{
+      padding-top: 0;
+      margin-top: 0;
+    }

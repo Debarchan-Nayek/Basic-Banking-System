@@ -1,0 +1,25 @@
+<%- include("partials/header") -%>
+
+<table class="table">
+<thead>
+  <tr>
+    <th scope="col">Sl.No.</th>
+    <th scope="col">Name</th>
+    <th scope="col">Balance</th>
+    <th scope="col">View Details</th>
+  </tr>
+</thead>
+<tbody>
+  <% cus.forEach((customer,i) => { %>
+  <tr>
+    <th scope="row"><%= customer._id %></th>
+    <td><%= customer.name %></td>
+    <td><%= customer.balance %></td>
+    <td><a href="/view/<%=i%>">View</a></td>
+  </tr>
+<%  }) %>
+</tbody>
+</table>
+
+
+<%- include("partials/footer") -%>

@@ -1,0 +1,15 @@
+<%- include("partials/header") -%>
+<h3 id="customer-heading">Customer Details</h3>
+<div id="view_details">
+      <img class="avatar-img"src="avatar.jpg" alt="avatar-img">
+    <p >Name: <%=users[num].name %></p>
+    <p >Balance: <%=users[num].balance %></p>
+    <p >Account No. : <%=users[num].accno %></p>
+    <p >IFSC Code : <%=users[num].ifsc %></p>
+<% const nm = users[num].name %>
+    <a href="/transaction/<%=nm%>" class="btn btn-primary">Transfer Money</a>
+    <a href="/transferhistory/<%=nm%>" class="btn btn-primary">Transfer History</a>
+</div>
+
+
+<%- include("partials/footer") -%>
